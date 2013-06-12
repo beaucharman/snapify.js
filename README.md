@@ -1,11 +1,11 @@
 # snapify.js
-> dd a snap-to-browser-top-when-within-proximity effect to elements.
+> Add a snap-to-browser-top-when-within-proximity effect to elements.
 
 ## Usage
 ```javascript
-(function ($) {
+;(function ($) {
 
-  $('.page--menu).snapify();
+  $('.page--menu').snapify();
 
 })(jQuery);
 ```
