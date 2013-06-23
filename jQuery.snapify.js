@@ -1,7 +1,7 @@
 /**
  * snapify.js
  * ========================================================================
- * jQuery.snapify.js
+ * jquery.snapify.js
  * @version 1.0 | June 12th 2013
  * @author  Beau Charman | @beaucharman | http://www.beaucharman.me
  * @link    https://github.com/beaucharman/snapify.js
@@ -24,7 +24,7 @@
 
         if ($(window).scrollTop() > $offsetTop) {
           $snapify
-            .css({'position': 'fixed', 'top':0})
+            .css({'position': 'fixed', 'top': 0})
             .addClass('snapify--fixed');
         } else {
           $snapify
